@@ -16,9 +16,17 @@ Este projeto consiste em quatro códigos desenvolvidos para resolver questões e
 **Problemas**
 |Código | Título | Dificuldade |
 | -- | -- | -- |
-
+| [1649](https://leetcode.com/problems/create-sorted-array-through-instructions/description/) | Create Sorted Array through Instructions | Difícil |
+| [2343](https://leetcode.com/problems/query-kth-smallest-trimmed-number/description/) | Query Kth Smallest Trimmed Number | Médio |
 
 ## Screenshots
+- Questão 1649
+
+![Print da aceitação do problema 1649](./Questão_1649/accepted_1649.png)
+
+- Questão 2343
+
+![Print da aceitação do problema 2343](./Questão_2343/accepted_2343.png)
 
 
 ## Uso 
@@ -27,3 +35,7 @@ Para verificar as resoluções das questões, copie a resolução da questão de
 
 
 ## Video
+
+### Questão Dificil 1649: [Create Sorted Array through Instructions](https://youtu.be/jdyX5URSquk)
+
+### Questão Médio 2343: [Query Kth Smallest Trimmed Number](https://youtu.be/9Ei1IGbzjLo)
