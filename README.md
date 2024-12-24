@@ -18,6 +18,7 @@ Este projeto consiste em quatro códigos desenvolvidos para resolver questões e
 | -- | -- | -- |
 | [1649](https://leetcode.com/problems/create-sorted-array-through-instructions/description/) | Create Sorted Array through Instructions | Difícil |
 | [2343](https://leetcode.com/problems/query-kth-smallest-trimmed-number/description/) | Query Kth Smallest Trimmed Number | Médio |
+| [4](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) | Median of Two Sorted Arrays | Difícil |
 
 ## Screenshots
 - Questão 1649
@@ -27,6 +28,10 @@ Este projeto consiste em quatro códigos desenvolvidos para resolver questões e
 - Questão 2343
 
 ![Print da aceitação do problema 2343](./Questão_2343/accepted_2343.png)
+
+- Questão 4
+
+![Print da aceitação do problema 4](./Questão_4/accepted_4.png)
 
 
 ## Uso 
