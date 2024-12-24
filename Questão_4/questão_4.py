@@ -3,22 +3,41 @@ class Solution:
         i, j = 0, 0
         arrayResultante = [] # array resultante do merge dos dois arrays
 
-        # mescla os dois arrays de forma linear
-        while i < len(nums1) and j < len(nums2):
-            if nums1[i] <= nums2[j]:
-                arrayResultante.append(nums1[i])
-                i += 1
-            else:
-                arrayResultante.append(nums2[j])
-                j += 1
+        def merge_sort(arr):
+            if len(arr) <= 1:
+                return arr
 
-        # elementos restantes de nos arrays se um chega ao final
-        while i < len(nums1):
-            arrayResultante.append(nums1[i])
-            i += 1
-        while j < len(nums2):
-            arrayResultante.append(nums2[j])
-            j += 1
+            # divide o array em dois
+            mid = len(arr) // 2
+            left = merge_sort(arr[:mid])
+            right = merge_sort(arr[mid:])
+
+            # mescla metades quando ordenadas ou tamanho 2
+            return merge(left, right)
+
+        # faz o merge das metades de forma linear
+        def merge(left, right):
+            merged = []
+            i = j = 0
+
+            while i < len(left) and j < len(right):
+                if left[i] <= right[j]:
+                    merged.append(left[i])
+                    i += 1
+                else:
+                    merged.append(right[j])
+                    j += 1
+
+            # Adiciona os elementos restantes de cada lado
+            merged.extend(left[i:])
+            merged.extend(right[j:])
+
+            return merged
+
+        num1Sorted = merge_sort(nums1)
+        num2Sorted = merge_sort(nums2)
+        # mescla os dois arrays em um array resultante utilizando a mesma logica
+        arrayResultante = merge(num1Sorted, num2Sorted)
 
         # mediana do array mesclado
         total_length = len(arrayResultante)
