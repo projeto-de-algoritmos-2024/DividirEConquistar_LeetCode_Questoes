@@ -44,3 +44,5 @@ Para verificar as resoluções das questões, copie a resolução da questão de
 ### Questão Dificil 1649: [Create Sorted Array through Instructions](https://youtu.be/jdyX5URSquk)
 
 ### Questão Médio 2343: [Query Kth Smallest Trimmed Number](https://youtu.be/9Ei1IGbzjLo)
+
+### Questão Dfícil 4: [Median of Two Sorted Arrays](https://youtu.be/rU4i-NAtf8o)
